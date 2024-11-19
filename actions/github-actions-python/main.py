@@ -76,7 +76,7 @@ async def connect_to_wss(user_id):
 async def main():
     # TODO 修改user_id
     # _user_id = '2fjMIhXjkB5HId9CWLxcQpyhD94'#localStorage.getItem('userId')
-    _user_id = "2lgiemEtbb0twLzEUHiJ8nCCiHm"#子账户
+    _user_id = "2oNMjIb4hTLgyps6JwNrRzN7zX9"#子账户
     await connect_to_wss(_user_id)
 
 
